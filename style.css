@@ -1,0 +1,114 @@
+body { 
+ 
+  font-family: 'Itim', cursive;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  font-size: 2em;
+  box-sizing: border-box;
+   background-image: linear-gradient(203deg, skyblue 49%, lightpink 50%, lightpink 100%);
+
+  background-color: #cccccc;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+html {
+  box-sizing: border-box;
+  height: 100%;
+}
+
+small {
+  opacity: .4;
+  margin-top: 20px;
+  display: block;
+}
+
+h1 {
+  color: #FF3C3C;
+  text-shadow: 3px 3px 3px rgb(6, 7);
+  text-align: center;
+  margin-bottom: 0;
+  font-size: 2em;
+  line-height: 1.2em;
+  font-weight:bold;
+  margin-top: -1em;
+}
+
+.todo-list {
+  padding-top: 10px;
+  width: 400px;
+}
+
+.todo {
+  background: #ffffff;
+  box-shadow: 10px 15px 10px rgba(6, 9, 10, 0);
+  padding: 3px 10px;
+  font-size: .7em;
+  margin-bottom: 30px;
+  border-radius: 11px 11px 11px;
+  border: 5px;
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: darkred;
+}
+
+.todo-text {
+  cursor: pointer;
+}
+
+.todo-completed {
+  text-decoration: #FF3C3C line-through wavy;
+}
+
+button {
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  font-size: 18px;
+  color: darkred;
+}
+
+.todo button {
+  color: darkred;
+  background: transparent;
+}
+
+input {
+  background: #ffffff;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+  padding: 7px 7px;
+  font-size: .5em;
+ border-radius: 11px 11px 11px;
+  color: darkred;
+  outline: 0;
+  border: 0;
+  flex: 1;
+}
+
+form {
+  border-top: 1px solid darkred;
+  display: flex;
+  padding-top: 10px;
+  margin-top: 10px;
+  
+}
+
+form button {
+  color: darkred;
+  background: #ffffff;
+  border-radius: 11px 11px 11px;
+  border-left: 1px solid #ccc;
+  box-shadow: 1px 1px 1px rgba(0, 10, 0, 0.20);
+  padding: 0 10px;
+}
